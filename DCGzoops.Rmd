@@ -1,0 +1,217 @@
+---
+title: "DCGzoop"
+author: "Rosie"
+date: "2/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Load packages:
+library(tidyverse)
+library(readxl)
+library(lubridate)
+library(measurements)
+library(zooper)
+library(deltamapr)
+library(spacetools)
+library(sf)
+library(exactextractr)
+library(lubridate)
+
+```
+
+## Zoop data organization for DCG
+
+First i need to get all the data from zooper. We probably need to decide which years to include, but I'll start with 2000-2020 for now. 
+
+```{r}
+
+
+#download zooper data and stick it together
+Meso_data <- Zoopsynther(Data_type = "Community",
+                         Sources = c("EMP",  "FMWT","STN","20mm"),
+                         Size_class = "Meso",
+                         Date_range = c("2000-01-01", "2020-12-31"))
+Macro_data<-Zoopsynther(Data_type = "Community",
+                        Sources = c("EMP",  "FMWT","STN"),
+                        Size_class = "Macro",
+                        Date_range = c("2000-01-01", "2020-12-31"))
+Micro_data<-Zoopsynther(Data_type = "Community",
+                        Sources = c("EMP"),
+                        Size_class = "Micro",
+                        Date_range = c("2000-01-01", "2020-12-31"))
+
+Zooper_data<-Meso_data%>%rbind(Micro_data)%>%rbind(Macro_data)
+
+#saveRDS(Zooper_data,"Data/Zooper_data.rds")
+head(Zooper_data)
+
+```
+
+## Now calculate biomass
+
+
+
+```{r}
+
+#Get biomass lookup tables in. I need to check and make sure this is the most recent version. 
+#it doesn't have "other cladocera" or the other UNIDS in it. But it's find to demo.
+biomass_meso<-read_csv("Zooplankton/Data/biomass_mesomicro.csv")
+biomass_meso<- mutate(biomass_meso,
+                      Taxlifestage = paste(biomass_meso$Taxname,biomass_meso$Lifestage,sep=" "))%>%
+                dplyr::select(Taxlifestage,Carbon_mass_micrograms)
+
+Zoop_data = Zooper_data %>%
+  mutate(Taxlifestage= str_replace(Taxlifestage, "_UnID",""),
+         Taxlifestage = case_when(
+           Taxlifestage=="Limnoithona Adult"~"Limnoithona tetraspina Adult",
+           TRUE ~ Taxlifestage
+         ))
+
+#Meso-biomass calculations
+#i'm going to skip the mysids for now, 'cause they are complicaated
+Zoop_meso<-Zoop_data %>%
+  filter(SizeClass%in%c("Meso","Micro"))
+
+#join with biomass
+Zoop_meso<-Zoop_meso%>%left_join(biomass_meso)
+Zoop_meso$BPUE<-Zoop_meso$CPUE*Zoop_meso$Carbon_mass_micrograms
+
+
+#load the spreadsheet of IBMR taxa
+IBMRtaxa = read_csv("Zooplankton/zoopcrosswalk2.csv") %>%
+  dplyr::select(Taxlifestage, IBMR) %>%
+  distinct()
+
+#get rid of undersampled taxa and add a "month" column
+Zoop_datatest = left_join(Zoop_meso, IBMRtaxa) %>%
+dplyr::filter(!Undersampled) %>%
+  mutate(Month = month(Date))
+
+head(Zoop_datatest)
+
+```
+
+Now I want to add water year, water year type, and season
+
+```{r}
+#Calculate water year function
+wtr_yr <- function(dates, start_month=12) {
+  # Convert dates into POSIXlt
+  dates.posix = as.POSIXlt(dates)
+  # Year offset
+  offset = ifelse(dates.posix$mon == start_month - 1, 1, 0)
+  # Water year
+  adj.year = dates.posix$year + 1900 + offset
+  # Return the water year
+  adj.year
+}
+
+
+
+Zoop_meso2 = mutate(Zoop_datatest,  Yearadj = wtr_yr(Date))
+
+WYs = read_csv("yeartypes.csv")
+WYs =  dplyr::rename(WYs, Yearadj = Year)
+Zoop_meso = left_join(Zoop_meso2, WYs) %>%
+  ungroup()
+head(Zoop_meso)
+```
+
+A few quick plots
+
+```{r}
+ggplot(Zoop_meso, aes(x = SalSurf, y = BPUE, color = IBMR)) + geom_boxplot()+
+  facet_wrap(~Yr_type)
+
+ggplot(Zoop_meso, aes(x = SalSurf, y = log(BPUE+1), color =Yr_type)) + geom_point()+
+  facet_wrap(~IBMR)
+
+```
+
+
+## summarize
+
+Total BPUE per group by sample. Then average BPUE per station and month by water  year type
+```{r}
+Zoop_mesoTot = group_by(Zoop_meso, SampleID, Volume, Source, SizeClass, 
+                        Yr_type, Latitude, Longitude, Station, Year, Month, Yearadj, IBMR) %>%
+  dplyr::summarise(BPUEt = sum(BPUE, na.rm = T))
+
+#Average zoop biomass by station, month, and water year type
+Zoop_mesoSta = group_by(Zoop_mesoTot,  Source, Station,
+                         Yr_type, Month, IBMR) %>%
+  dplyr::summarise(BPUEm = mean(BPUEt, na.rm = T))
+
+
+```
+
+## load HSI data
+
+I used .tiffs of habitat suitability that RMA ran for several scenarios of different water year types with and without SMSCG actions. Then I calculated the average HSI for each scenario in a 1 km buffer around each sampling station.
+
+```{r}
+#load habitat by station
+load("C:/Users/rhartman/OneDrive - California Department of Water Resources/salinity control gates/SMSCG/HabitatbyStations.RData")
+
+names(IEP_sf_HSI)
+IEP_sf_HSI = dplyr::rename(IEP_sf_HSI, Station = StationCode, Source = Survey)
+IEP_HSI_long = st_drop_geometry(IEP_sf_HSI) %>%
+  pivot_longer(cols =  starts_with("mean"),
+                            names_to = "Scenario", values_to = "HSI")
+
+#import scenario descriptions
+scenarios = read_csv("ScenariosRMA.csv")
+IEP_HSI_long = left_join(IEP_HSI_long, scenarios)
+
+IEP_wzoop = left_join(Zoop_mesoSta, IEP_HSI_long)
+```
+
+To look at what the zooplankton biomass in the "good" habitat is, I first tried cutting off the "good" habitat at an HSI above 0.4
+
+```{r}
+IEP_zoop_goodHSI = filter(IEP_wzoop, HSI > 0.4) %>%
+  group_by(Scenario, IBMR, Yr_type, Month, Action) %>%
+  dplyr::summarize(BPUE = mean(BPUEm, na.rm = T))
+
+ggplot(IEP_zoop_goodHSI, aes(x = IBMR, y = BPUE, fill = Action)) + geom_col(position = "dodge")+
+  facet_grid(as.factor(Month)~Yr_type)
+
+#Damn it. I don't know that this is actually going to work.
+
+```
+
+That didn't show a lot of difference bewteen scenarios. Next I will try weighting the BPUE by the HSI, rather than using a cut-off. 
+
+```{r}
+IEP_zoop_goodHSI2 =mutate(IEP_wzoop, foodHSI = BPUEm*HSI) %>%
+  filter(!is.na(HSI)) %>%
+  group_by(Scenario, IBMR, Yr_type, Month, Action) %>%
+  dplyr::summarize(BPUEweighted = mean(foodHSI, na.rm = T))
+
+ggplot(IEP_zoop_goodHSI2, aes(x = IBMR, y = BPUEweighted, fill = Action)) + geom_col(position = "dodge")+
+  facet_grid(as.factor(Month)~Yr_type)
+```
+
+OK, that's something. Let's put it in terms of a difference between actions.
+
+```{r}
+IEP_zoop_goodHSI3 = IEP_zoop_goodHSI2 %>%
+  pivot_wider(id_cols = c(IBMR, Yr_type, Month), names_from = Action, values_from = BPUEweighted) %>%
+  mutate(BPUEdiff = SMSCG - NoAction, BPUEperdiff = 1-(NoAction/SMSCG))
+
+
+ggplot(IEP_zoop_goodHSI3, aes(x = IBMR, y = BPUEdiff)) + geom_col(position = "dodge")+
+  facet_grid(as.factor(Month)~Yr_type)
+
+ggplot(IEP_zoop_goodHSI3, aes(x = IBMR, y = BPUEperdiff)) + geom_col(position = "dodge")+
+  facet_grid(as.factor(Month)~Yr_type)
+
+#OK! This is something I can work with!!!
+
+#I need to look at the details, but I think this is something useful. HIgher values for SMSCG action anyway.
+
+```
+
