@@ -1,0 +1,12 @@
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = sqrt(wisconsin(community_df)) ~ Drought, data = env_df)
+         Df SumOfSqs      R2      F Pr(>F)    
+Drought   2  0.10910 0.25932 4.0263  0.001 ***
+Residual 23  0.31162 0.74068                  
+Total    25  0.42072 1.00000                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,561 @@
+"water_year","month","Short_term","Region","Season","st_index","BPUE_ug"
+2011,1,FALSE,"SouthCentral","Winter","Wet",152.60384
+2011,1,TRUE,"Confluence","Winter","Wet",654.144662467776
+2011,1,TRUE,"SouthCentral","Winter","Wet",129.1291
+2011,1,TRUE,"Suisun Bay","Winter","Wet",1972.14680083708
+2011,1,TRUE,"Suisun Marsh","Winter","Wet",1336.82297486058
+2011,2,FALSE,"SouthCentral","Winter","Wet",537.51199
+2011,2,TRUE,"Confluence","Winter","Wet",1161.38105141694
+2011,2,TRUE,"SouthCentral","Winter","Wet",118.85149
+2011,2,TRUE,"Suisun Bay","Winter","Wet",3884.78185095055
+2011,2,TRUE,"Suisun Marsh","Winter","Wet",1365.62806103364
+2011,3,FALSE,"SouthCentral","Spring","Wet",340.46918
+2011,3,TRUE,"Confluence","Spring","Wet",230.518534734828
+2011,3,TRUE,"SouthCentral","Spring","Wet",642.66953
+2011,3,TRUE,"Suisun Bay","Spring","Wet",1382.51572515907
+2011,3,TRUE,"Suisun Marsh","Spring","Wet",697.119119461981
+2011,4,FALSE,"SouthCentral","Spring","Wet",826.89378
+2011,4,TRUE,"Confluence","Spring","Wet",869.775351666667
+2011,4,TRUE,"SouthCentral","Spring","Wet",1045.49975
+2011,4,TRUE,"Suisun Bay","Spring","Wet",7955.22181913085
+2011,4,TRUE,"Suisun Marsh","Spring","Wet",1520.46930280879
+2011,5,FALSE,"SouthCentral","Spring","Wet",9343.35040823071
+2011,5,TRUE,"Confluence","Spring","Wet",1590.62170390361
+2011,5,TRUE,"SouthCentral","Spring","Wet",771.856904900796
+2011,5,TRUE,"Suisun Bay","Spring","Wet",7249.95288538845
+2011,5,TRUE,"Suisun Marsh","Spring","Wet",5664.67661963744
+2011,6,TRUE,"Confluence","Summer","Wet",4449.00388015081
+2011,6,TRUE,"SouthCentral","Summer","Wet",1653.9936131115
+2011,6,TRUE,"Suisun Bay","Summer","Wet",14308.4724198471
+2011,6,TRUE,"Suisun Marsh","Summer","Wet",5024.30390490239
+2011,7,TRUE,"Confluence","Summer","Wet",11288.1433632564
+2011,7,TRUE,"SouthCentral","Summer","Wet",4614.74236343985
+2011,7,TRUE,"Suisun Bay","Summer","Wet",17521.2330500549
+2011,7,TRUE,"Suisun Marsh","Summer","Wet",14059.5656082716
+2011,8,TRUE,"Confluence","Summer","Wet",10889.3564350242
+2011,8,TRUE,"SouthCentral","Summer","Wet",5195.90234
+2011,8,TRUE,"Suisun Bay","Summer","Wet",12429.8791982905
+2011,8,TRUE,"Suisun Marsh","Summer","Wet",3474.40690390096
+2011,9,FALSE,"SouthCentral","Fall","Wet",12187.51899
+2011,9,TRUE,"Confluence","Fall","Wet",10160.2525051577
+2011,9,TRUE,"SouthCentral","Fall","Wet",1170.7513
+2011,9,TRUE,"Suisun Bay","Fall","Wet",10909.4904534785
+2011,9,TRUE,"Suisun Marsh","Fall","Wet",8892.84189797374
+2011,10,FALSE,"SouthCentral","Fall","Wet",5203.33499
+2011,10,TRUE,"Confluence","Fall","Wet",6511.16968435783
+2011,10,TRUE,"SouthCentral","Fall","Wet",332.81371
+2011,10,TRUE,"Suisun Bay","Fall","Wet",9502.87166760002
+2011,10,TRUE,"Suisun Marsh","Fall","Wet",6785.61136291955
+2011,11,FALSE,"SouthCentral","Fall","Wet",2505.81725
+2011,11,TRUE,"Confluence","Fall","Wet",5454.81690453604
+2011,11,TRUE,"SouthCentral","Fall","Wet",2506.94946
+2011,11,TRUE,"Suisun Bay","Fall","Wet",3678.93427083405
+2011,11,TRUE,"Suisun Marsh","Fall","Wet",1533.56003808051
+2011,12,FALSE,"SouthCentral","Winter","Wet",309.24282
+2011,12,TRUE,"Confluence","Winter","Wet",1340.14139819164
+2011,12,TRUE,"SouthCentral","Winter","Wet",535.3677
+2011,12,TRUE,"Suisun Bay","Winter","Wet",3187.49970692467
+2011,12,TRUE,"Suisun Marsh","Winter","Wet",1330.41010994214
+2012,1,FALSE,"SouthCentral","Winter","Neutral",561.41722
+2012,1,TRUE,"Confluence","Winter","Neutral",1461.67507031784
+2012,1,TRUE,"SouthCentral","Winter","Neutral",2933.40297
+2012,1,TRUE,"Suisun Bay","Winter","Neutral",5528.73373396975
+2012,1,TRUE,"Suisun Marsh","Winter","Neutral",1466.62884511208
+2012,2,FALSE,"SouthCentral","Winter","Neutral",2064.68231124526
+2012,2,TRUE,"Confluence","Winter","Neutral",827.502528819309
+2012,2,TRUE,"SouthCentral","Winter","Neutral",4495.07219233462
+2012,2,TRUE,"Suisun Bay","Winter","Neutral",3504.65243441544
+2012,2,TRUE,"Suisun Marsh","Winter","Neutral",1963.99788604322
+2012,3,FALSE,"SouthCentral","Spring","Neutral",1643.99973
+2012,3,TRUE,"Confluence","Spring","Neutral",978.424989258618
+2012,3,TRUE,"SouthCentral","Spring","Neutral",2837.87174
+2012,3,TRUE,"Suisun Bay","Spring","Neutral",2042.31680285146
+2012,3,TRUE,"Suisun Marsh","Spring","Neutral",1428.18723924742
+2012,4,FALSE,"SouthCentral","Spring","Neutral",2013.364
+2012,4,TRUE,"Confluence","Spring","Neutral",516.507086581104
+2012,4,TRUE,"SouthCentral","Spring","Neutral",3592.42587
+2012,4,TRUE,"Suisun Bay","Spring","Neutral",2016.2954281112
+2012,4,TRUE,"Suisun Marsh","Spring","Neutral",1169.44827419775
+2012,5,FALSE,"SouthCentral","Spring","Neutral",5313.86553116811
+2012,5,TRUE,"Confluence","Spring","Neutral",5594.66930019566
+2012,5,TRUE,"SouthCentral","Spring","Neutral",4704.72919229099
+2012,5,TRUE,"Suisun Bay","Spring","Neutral",8168.66673912846
+2012,5,TRUE,"Suisun Marsh","Spring","Neutral",9040.02974140901
+2012,6,TRUE,"Confluence","Summer","Neutral",12154.614275684
+2012,6,TRUE,"SouthCentral","Summer","Neutral",9423.10454057422
+2012,6,TRUE,"Suisun Bay","Summer","Neutral",12373.946220618
+2012,6,TRUE,"Suisun Marsh","Summer","Neutral",17662.0370239943
+2012,7,TRUE,"Confluence","Summer","Neutral",11334.6342595035
+2012,7,TRUE,"SouthCentral","Summer","Neutral",18368.434994849
+2012,7,TRUE,"Suisun Bay","Summer","Neutral",15871.9998584195
+2012,7,TRUE,"Suisun Marsh","Summer","Neutral",6246.28510441074
+2012,8,TRUE,"Confluence","Summer","Neutral",8014.80661122324
+2012,8,TRUE,"SouthCentral","Summer","Neutral",8281.63685703044
+2012,8,TRUE,"Suisun Bay","Summer","Neutral",10760.0442960483
+2012,8,TRUE,"Suisun Marsh","Summer","Neutral",7105.25996824836
+2012,9,FALSE,"SouthCentral","Fall","Neutral",5936.29282
+2012,9,TRUE,"Confluence","Fall","Neutral",13108.6003838791
+2012,9,TRUE,"SouthCentral","Fall","Neutral",16358.91268
+2012,9,TRUE,"Suisun Bay","Fall","Neutral",10083.46459135
+2012,9,TRUE,"Suisun Marsh","Fall","Neutral",7623.03246407258
+2012,10,FALSE,"SouthCentral","Fall","Neutral",8513.76654
+2012,10,TRUE,"Confluence","Fall","Neutral",9560.0878001682
+2012,10,TRUE,"SouthCentral","Fall","Neutral",12597.19217
+2012,10,TRUE,"Suisun Bay","Fall","Neutral",7357.11013746555
+2012,10,TRUE,"Suisun Marsh","Fall","Neutral",5684.26375227755
+2012,11,FALSE,"SouthCentral","Fall","Neutral",2091.40623
+2012,11,TRUE,"Confluence","Fall","Neutral",6562.09299088364
+2012,11,TRUE,"SouthCentral","Fall","Neutral",23062.31808
+2012,11,TRUE,"Suisun Bay","Fall","Neutral",8386.19410442264
+2012,11,TRUE,"Suisun Marsh","Fall","Neutral",5114.23119199998
+2012,12,FALSE,"SouthCentral","Winter","Neutral",543.47939
+2012,12,TRUE,"Confluence","Winter","Neutral",4241.41474990701
+2012,12,TRUE,"SouthCentral","Winter","Neutral",1967.77945
+2012,12,TRUE,"Suisun Bay","Winter","Neutral",2030.55377176529
+2012,12,TRUE,"Suisun Marsh","Winter","Neutral",1344.14385915021
+2013,1,FALSE,"SouthCentral","Winter","Drought, no barrier",103.20629
+2013,1,TRUE,"Confluence","Winter","Drought, no barrier",1435.87783654176
+2013,1,TRUE,"SouthCentral","Winter","Drought, no barrier",240.59629
+2013,1,TRUE,"Suisun Bay","Winter","Drought, no barrier",3003.20411845722
+2013,1,TRUE,"Suisun Marsh","Winter","Drought, no barrier",3215.53147512568
+2013,2,FALSE,"SouthCentral","Winter","Drought, no barrier",416.09967
+2013,2,TRUE,"Confluence","Winter","Drought, no barrier",927.331068788071
+2013,2,TRUE,"SouthCentral","Winter","Drought, no barrier",1308.62069
+2013,2,TRUE,"Suisun Bay","Winter","Drought, no barrier",4535.87606693857
+2013,2,TRUE,"Suisun Marsh","Winter","Drought, no barrier",5088.90561571484
+2013,3,FALSE,"SouthCentral","Spring","Drought, no barrier",2416.00685
+2013,3,TRUE,"Confluence","Spring","Drought, no barrier",4337.75381857352
+2013,3,TRUE,"SouthCentral","Spring","Drought, no barrier",2501.72254
+2013,3,TRUE,"Suisun Bay","Spring","Drought, no barrier",6926.65524913313
+2013,3,TRUE,"Suisun Marsh","Spring","Drought, no barrier",14226.1020656981
+2013,4,FALSE,"SouthCentral","Spring","Drought, no barrier",2327.84381
+2013,4,TRUE,"Confluence","Spring","Drought, no barrier",10081.4319093262
+2013,4,TRUE,"SouthCentral","Spring","Drought, no barrier",15235.46588
+2013,4,TRUE,"Suisun Bay","Spring","Drought, no barrier",6857.1904618399
+2013,4,TRUE,"Suisun Marsh","Spring","Drought, no barrier",7599.48885107097
+2013,5,FALSE,"SouthCentral","Spring","Drought, no barrier",14124.129
+2013,5,TRUE,"Confluence","Spring","Drought, no barrier",7080.92258926231
+2013,5,TRUE,"SouthCentral","Spring","Drought, no barrier",17401.9169281219
+2013,5,TRUE,"Suisun Bay","Spring","Drought, no barrier",8075.02475014727
+2013,5,TRUE,"Suisun Marsh","Spring","Drought, no barrier",4810.69298225635
+2013,6,TRUE,"Confluence","Summer","Drought, no barrier",9377.92197210537
+2013,6,TRUE,"SouthCentral","Summer","Drought, no barrier",9720.19865730245
+2013,6,TRUE,"Suisun Bay","Summer","Drought, no barrier",7237.43521582198
+2013,6,TRUE,"Suisun Marsh","Summer","Drought, no barrier",11578.477011769
+2013,7,TRUE,"Confluence","Summer","Drought, no barrier",10393.7558968417
+2013,7,TRUE,"SouthCentral","Summer","Drought, no barrier",6769.561105
+2013,7,TRUE,"Suisun Bay","Summer","Drought, no barrier",11487.6101140379
+2013,7,TRUE,"Suisun Marsh","Summer","Drought, no barrier",3195.97995355555
+2013,8,TRUE,"Confluence","Summer","Drought, no barrier",7817.55981141741
+2013,8,TRUE,"SouthCentral","Summer","Drought, no barrier",13435.438905
+2013,8,TRUE,"Suisun Bay","Summer","Drought, no barrier",6743.23748091282
+2013,8,TRUE,"Suisun Marsh","Summer","Drought, no barrier",2976.75006660551
+2013,9,FALSE,"SouthCentral","Fall","Drought, no barrier",1922.9193842402
+2013,9,TRUE,"Confluence","Fall","Drought, no barrier",9362.78616789885
+2013,9,TRUE,"SouthCentral","Fall","Drought, no barrier",23412.53701
+2013,9,TRUE,"Suisun Bay","Fall","Drought, no barrier",9426.26525674021
+2013,9,TRUE,"Suisun Marsh","Fall","Drought, no barrier",5561.44387896508
+2013,10,FALSE,"SouthCentral","Fall","Drought, no barrier",936.468825849986
+2013,10,TRUE,"Confluence","Fall","Drought, no barrier",9821.61557940532
+2013,10,TRUE,"SouthCentral","Fall","Drought, no barrier",16737.4734970055
+2013,10,TRUE,"Suisun Bay","Fall","Drought, no barrier",6412.13626126576
+2013,10,TRUE,"Suisun Marsh","Fall","Drought, no barrier",6028.61129799709
+2013,11,FALSE,"SouthCentral","Fall","Drought, no barrier",1609.46799
+2013,11,TRUE,"Confluence","Fall","Drought, no barrier",6242.36559075939
+2013,11,TRUE,"SouthCentral","Fall","Drought, no barrier",22610.59998
+2013,11,TRUE,"Suisun Bay","Fall","Drought, no barrier",9291.55272928494
+2013,11,TRUE,"Suisun Marsh","Fall","Drought, no barrier",4512.49865441014
+2013,12,FALSE,"SouthCentral","Winter","Drought, no barrier",410.87039
+2013,12,TRUE,"Confluence","Winter","Drought, no barrier",365.049502546113
+2013,12,TRUE,"SouthCentral","Winter","Drought, no barrier",1270.36575
+2013,12,TRUE,"Suisun Bay","Winter","Drought, no barrier",4222.61822771424
+2013,12,TRUE,"Suisun Marsh","Winter","Drought, no barrier",2996.77896064529
+2014,1,FALSE,"SouthCentral","Winter","Drought, no barrier",364.06381
+2014,1,TRUE,"Confluence","Winter","Drought, no barrier",1638.18014130102
+2014,1,TRUE,"SouthCentral","Winter","Drought, no barrier",8240.93433
+2014,1,TRUE,"Suisun Bay","Winter","Drought, no barrier",4371.59431061202
+2014,1,TRUE,"Suisun Marsh","Winter","Drought, no barrier",5085.92664088507
+2014,2,FALSE,"SouthCentral","Winter","Drought, no barrier",1029.96827916404
+2014,2,TRUE,"Confluence","Winter","Drought, no barrier",2098.9441657528
+2014,2,TRUE,"SouthCentral","Winter","Drought, no barrier",15548.47974
+2014,2,TRUE,"Suisun Bay","Winter","Drought, no barrier",5074.37275947396
+2014,2,TRUE,"Suisun Marsh","Winter","Drought, no barrier",7373.24265705176
+2014,3,FALSE,"SouthCentral","Spring","Drought, no barrier",835.95403
+2014,3,TRUE,"Confluence","Spring","Drought, no barrier",1350.911029963
+2014,3,TRUE,"SouthCentral","Spring","Drought, no barrier",1305.55408
+2014,3,TRUE,"Suisun Bay","Spring","Drought, no barrier",3092.47796424964
+2014,3,TRUE,"Suisun Marsh","Spring","Drought, no barrier",4357.74807727208
+2014,4,FALSE,"SouthCentral","Spring","Drought, no barrier",1816.05068
+2014,4,TRUE,"Confluence","Spring","Drought, no barrier",3234.83694082829
+2014,4,TRUE,"SouthCentral","Spring","Drought, no barrier",4702.29855
+2014,4,TRUE,"Suisun Bay","Spring","Drought, no barrier",6972.57589194268
+2014,4,TRUE,"Suisun Marsh","Spring","Drought, no barrier",12055.5922717989
+2014,5,FALSE,"SouthCentral","Spring","Drought, no barrier",5019.08889
+2014,5,TRUE,"Confluence","Spring","Drought, no barrier",10609.101913035
+2014,5,TRUE,"SouthCentral","Spring","Drought, no barrier",8218.84123
+2014,5,TRUE,"Suisun Bay","Spring","Drought, no barrier",10093.3639409304
+2014,5,TRUE,"Suisun Marsh","Spring","Drought, no barrier",10684.9826536702
+2014,6,TRUE,"Confluence","Summer","Drought, no barrier",15285.9643503397
+2014,6,TRUE,"SouthCentral","Summer","Drought, no barrier",20919.5075296918
+2014,6,TRUE,"Suisun Bay","Summer","Drought, no barrier",8994.29113796452
+2014,6,TRUE,"Suisun Marsh","Summer","Drought, no barrier",9951.86446377634
+2014,7,TRUE,"Confluence","Summer","Drought, no barrier",13901.4557514852
+2014,7,TRUE,"SouthCentral","Summer","Drought, no barrier",18198.661867867
+2014,7,TRUE,"Suisun Bay","Summer","Drought, no barrier",8191.81365719089
+2014,7,TRUE,"Suisun Marsh","Summer","Drought, no barrier",7777.91514896465
+2014,8,TRUE,"Confluence","Summer","Drought, no barrier",16741.1150888361
+2014,8,TRUE,"SouthCentral","Summer","Drought, no barrier",13343.3434967037
+2014,8,TRUE,"Suisun Bay","Summer","Drought, no barrier",5829.03620341943
+2014,8,TRUE,"Suisun Marsh","Summer","Drought, no barrier",6603.33986642226
+2014,9,FALSE,"SouthCentral","Fall","Drought, no barrier",30546.3015
+2014,9,TRUE,"Confluence","Fall","Drought, no barrier",15105.3832623962
+2014,9,TRUE,"SouthCentral","Fall","Drought, no barrier",28315.5008389452
+2014,9,TRUE,"Suisun Bay","Fall","Drought, no barrier",4030.57248670268
+2014,9,TRUE,"Suisun Marsh","Fall","Drought, no barrier",6528.71613237077
+2014,10,FALSE,"SouthCentral","Fall","Drought, no barrier",18354.19438
+2014,10,TRUE,"Confluence","Fall","Drought, no barrier",14902.6969524476
+2014,10,TRUE,"SouthCentral","Fall","Drought, no barrier",24526.2827575342
+2014,10,TRUE,"Suisun Bay","Fall","Drought, no barrier",3529.31671532285
+2014,10,TRUE,"Suisun Marsh","Fall","Drought, no barrier",4916.32917431863
+2014,11,FALSE,"SouthCentral","Fall","Drought, no barrier",6213.22443
+2014,11,TRUE,"Confluence","Fall","Drought, no barrier",9382.22543932306
+2014,11,TRUE,"SouthCentral","Fall","Drought, no barrier",7545.20792836338
+2014,11,TRUE,"Suisun Bay","Fall","Drought, no barrier",6650.34364739788
+2014,11,TRUE,"Suisun Marsh","Fall","Drought, no barrier",5982.47850639909
+2014,12,FALSE,"SouthCentral","Winter","Drought, no barrier",383.75495
+2014,12,TRUE,"Confluence","Winter","Drought, no barrier",2463.47449765673
+2014,12,TRUE,"SouthCentral","Winter","Drought, no barrier",6881.83758
+2014,12,TRUE,"Suisun Bay","Winter","Drought, no barrier",4413.69631260428
+2014,12,TRUE,"Suisun Marsh","Winter","Drought, no barrier",4059.02205166788
+2015,1,FALSE,"SouthCentral","Winter","Drought, with barrier",106.351799773067
+2015,1,TRUE,"Confluence","Winter","Drought, with barrier",2126.21093171808
+2015,1,TRUE,"SouthCentral","Winter","Drought, with barrier",541.00097
+2015,1,TRUE,"Suisun Bay","Winter","Drought, with barrier",1664.54505157136
+2015,1,TRUE,"Suisun Marsh","Winter","Drought, with barrier",3707.72864888488
+2015,2,FALSE,"SouthCentral","Winter","Drought, with barrier",516.13468
+2015,2,TRUE,"Confluence","Winter","Drought, with barrier",681.623546936696
+2015,2,TRUE,"SouthCentral","Winter","Drought, with barrier",4058.45054
+2015,2,TRUE,"Suisun Bay","Winter","Drought, with barrier",5029.6502668845
+2015,2,TRUE,"Suisun Marsh","Winter","Drought, with barrier",5215.97973745247
+2015,3,FALSE,"SouthCentral","Spring","Drought, with barrier",391.133918343524
+2015,3,TRUE,"Confluence","Spring","Drought, with barrier",2489.1427576188
+2015,3,TRUE,"SouthCentral","Spring","Drought, with barrier",6598.11485
+2015,3,TRUE,"Suisun Bay","Spring","Drought, with barrier",4450.48739842121
+2015,3,TRUE,"Suisun Marsh","Spring","Drought, with barrier",10456.568928727
+2015,4,FALSE,"SouthCentral","Spring","Drought, with barrier",5826.74437
+2015,4,TRUE,"Confluence","Spring","Drought, with barrier",9393.83738209104
+2015,4,TRUE,"SouthCentral","Spring","Drought, with barrier",17974.09052
+2015,4,TRUE,"Suisun Bay","Spring","Drought, with barrier",16154.9926148329
+2015,4,TRUE,"Suisun Marsh","Spring","Drought, with barrier",13969.078326811
+2015,5,FALSE,"SouthCentral","Spring","Drought, with barrier",7957.61450387084
+2015,5,TRUE,"Confluence","Spring","Drought, with barrier",15842.113257829
+2015,5,TRUE,"SouthCentral","Spring","Drought, with barrier",32539.4363578292
+2015,5,TRUE,"Suisun Bay","Spring","Drought, with barrier",8031.93169874572
+2015,5,TRUE,"Suisun Marsh","Spring","Drought, with barrier",7452.27702686956
+2015,6,TRUE,"Confluence","Summer","Drought, with barrier",14425.5683561975
+2015,6,TRUE,"SouthCentral","Summer","Drought, with barrier",25214.0042
+2015,6,TRUE,"Suisun Bay","Summer","Drought, with barrier",8605.94473447492
+2015,6,TRUE,"Suisun Marsh","Summer","Drought, with barrier",9527.36213681493
+2015,7,TRUE,"Confluence","Summer","Drought, with barrier",14186.1693700666
+2015,7,TRUE,"SouthCentral","Summer","Drought, with barrier",21337.3644728729
+2015,7,TRUE,"Suisun Bay","Summer","Drought, with barrier",15464.3206927155
+2015,7,TRUE,"Suisun Marsh","Summer","Drought, with barrier",13179.7097094508
+2015,8,TRUE,"Confluence","Summer","Drought, with barrier",8168.81546366257
+2015,8,TRUE,"SouthCentral","Summer","Drought, with barrier",8548.44090626749
+2015,8,TRUE,"Suisun Bay","Summer","Drought, with barrier",10223.6821894636
+2015,8,TRUE,"Suisun Marsh","Summer","Drought, with barrier",18556.3608436244
+2015,9,FALSE,"SouthCentral","Fall","Drought, with barrier",4871.44028
+2015,9,TRUE,"Confluence","Fall","Drought, with barrier",17098.1433352484
+2015,9,TRUE,"SouthCentral","Fall","Drought, with barrier",17886.3057900247
+2015,9,TRUE,"Suisun Bay","Fall","Drought, with barrier",5632.8418603526
+2015,9,TRUE,"Suisun Marsh","Fall","Drought, with barrier",7892.23180328997
+2015,10,FALSE,"SouthCentral","Fall","Drought, with barrier",6906.51077
+2015,10,TRUE,"Confluence","Fall","Drought, with barrier",13967.4812466824
+2015,10,TRUE,"SouthCentral","Fall","Drought, with barrier",26550.35549
+2015,10,TRUE,"Suisun Bay","Fall","Drought, with barrier",4321.8309418401
+2015,10,TRUE,"Suisun Marsh","Fall","Drought, with barrier",7931.94608443876
+2015,11,FALSE,"SouthCentral","Fall","Drought, with barrier",3355.87089832322
+2015,11,TRUE,"Confluence","Fall","Drought, with barrier",11013.2811983738
+2015,11,TRUE,"SouthCentral","Fall","Drought, with barrier",14321.67984
+2015,11,TRUE,"Suisun Bay","Fall","Drought, with barrier",5380.62827129944
+2015,11,TRUE,"Suisun Marsh","Fall","Drought, with barrier",7749.81139296624
+2015,12,FALSE,"SouthCentral","Winter","Drought, with barrier",585.77644
+2015,12,TRUE,"Confluence","Winter","Drought, with barrier",1569.53516346562
+2015,12,TRUE,"SouthCentral","Winter","Drought, with barrier",2618.20325615892
+2015,12,TRUE,"Suisun Bay","Winter","Drought, with barrier",5058.85940882073
+2015,12,TRUE,"Suisun Marsh","Winter","Drought, with barrier",1144.12511996285
+2016,1,FALSE,"SouthCentral","Winter","Neutral",3837.13479
+2016,1,TRUE,"Confluence","Winter","Neutral",4637.27222135126
+2016,1,TRUE,"SouthCentral","Winter","Neutral",8986.5492
+2016,1,TRUE,"Suisun Bay","Winter","Neutral",2507.67499024351
+2016,1,TRUE,"Suisun Marsh","Winter","Neutral",13841.8019276466
+2016,2,FALSE,"SouthCentral","Winter","Neutral",575.00469
+2016,2,TRUE,"Confluence","Winter","Neutral",1076.30860333333
+2016,2,TRUE,"SouthCentral","Winter","Neutral",2580.61239
+2016,2,TRUE,"Suisun Bay","Winter","Neutral",4681.53885503696
+2016,2,TRUE,"Suisun Marsh","Winter","Neutral",5013.22822624205
+2016,3,FALSE,"SouthCentral","Spring","Neutral",2193.10106
+2016,3,TRUE,"Confluence","Spring","Neutral",2992.45369679382
+2016,3,TRUE,"SouthCentral","Spring","Neutral",4217.46036
+2016,3,TRUE,"Suisun Bay","Spring","Neutral",3974.26288773507
+2016,3,TRUE,"Suisun Marsh","Spring","Neutral",7512.28410295285
+2016,4,FALSE,"SouthCentral","Spring","Neutral",7111.19784
+2016,4,TRUE,"Confluence","Spring","Neutral",4750.45681744897
+2016,4,TRUE,"SouthCentral","Spring","Neutral",110019.267284662
+2016,4,TRUE,"Suisun Bay","Spring","Neutral",14658.9689867184
+2016,4,TRUE,"Suisun Marsh","Spring","Neutral",12274.2076733247
+2016,5,FALSE,"SouthCentral","Spring","Neutral",1437.73643894486
+2016,5,TRUE,"Confluence","Spring","Neutral",15790.5446399517
+2016,5,TRUE,"SouthCentral","Spring","Neutral",14173.63269
+2016,5,TRUE,"Suisun Bay","Spring","Neutral",25469.2818098185
+2016,5,TRUE,"Suisun Marsh","Spring","Neutral",13271.0862888561
+2016,6,TRUE,"Confluence","Summer","Neutral",23963.3175436478
+2016,6,TRUE,"SouthCentral","Summer","Neutral",20346.4594519481
+2016,6,TRUE,"Suisun Bay","Summer","Neutral",21309.3634375792
+2016,6,TRUE,"Suisun Marsh","Summer","Neutral",19858.275379496
+2016,7,TRUE,"Confluence","Summer","Neutral",17460.4004641633
+2016,7,TRUE,"SouthCentral","Summer","Neutral",33813.3959528393
+2016,7,TRUE,"Suisun Bay","Summer","Neutral",23452.4948944087
+2016,7,TRUE,"Suisun Marsh","Summer","Neutral",8984.95474984669
+2016,8,TRUE,"Confluence","Summer","Neutral",23824.5122393629
+2016,8,TRUE,"SouthCentral","Summer","Neutral",18847.7114900426
+2016,8,TRUE,"Suisun Bay","Summer","Neutral",17394.479696119
+2016,8,TRUE,"Suisun Marsh","Summer","Neutral",8942.74835445623
+2016,9,FALSE,"SouthCentral","Fall","Neutral",5774.4571683442
+2016,9,TRUE,"Confluence","Fall","Neutral",12966.3733800677
+2016,9,TRUE,"SouthCentral","Fall","Neutral",47091.4767255265
+2016,9,TRUE,"Suisun Bay","Fall","Neutral",13141.2547424876
+2016,9,TRUE,"Suisun Marsh","Fall","Neutral",9372.88447706159
+2016,10,FALSE,"SouthCentral","Fall","Neutral",9109.41489326206
+2016,10,TRUE,"Confluence","Fall","Neutral",11130.7425136836
+2016,10,TRUE,"SouthCentral","Fall","Neutral",21373.37324
+2016,10,TRUE,"Suisun Bay","Fall","Neutral",14175.4552502631
+2016,10,TRUE,"Suisun Marsh","Fall","Neutral",9619.74908456998
+2016,11,FALSE,"SouthCentral","Fall","Neutral",5661.11219
+2016,11,TRUE,"Confluence","Fall","Neutral",10304.1858903393
+2016,11,TRUE,"SouthCentral","Fall","Neutral",9957.60554
+2016,11,TRUE,"Suisun Bay","Fall","Neutral",10956.0102236838
+2016,11,TRUE,"Suisun Marsh","Fall","Neutral",6062.2653975608
+2016,12,FALSE,"SouthCentral","Winter","Neutral",4237.97288
+2016,12,TRUE,"Confluence","Winter","Neutral",8289.91981949913
+2016,12,TRUE,"SouthCentral","Winter","Neutral",21233.95386
+2016,12,TRUE,"Suisun Bay","Winter","Neutral",3729.12424087516
+2016,12,TRUE,"Suisun Marsh","Winter","Neutral",4317.57536889775
+2017,1,FALSE,"SouthCentral","Winter","Wet",316.10755
+2017,1,TRUE,"Confluence","Winter","Wet",332.976262674936
+2017,1,TRUE,"SouthCentral","Winter","Wet",811.572873796436
+2017,1,TRUE,"Suisun Bay","Winter","Wet",1739.93470697506
+2017,1,TRUE,"Suisun Marsh","Winter","Wet",2372.62096632422
+2017,2,FALSE,"SouthCentral","Winter","Wet",541.82574
+2017,2,TRUE,"Confluence","Winter","Wet",751.466480948799
+2017,2,TRUE,"SouthCentral","Winter","Wet",1232.02866
+2017,2,TRUE,"Suisun Bay","Winter","Wet",483.236476666667
+2017,2,TRUE,"Suisun Marsh","Winter","Wet",1498.38129310391
+2017,3,FALSE,"SouthCentral","Spring","Wet",1009.1845
+2017,3,TRUE,"Confluence","Spring","Wet",399.600226761833
+2017,3,TRUE,"SouthCentral","Spring","Wet",591.911141958936
+2017,3,TRUE,"Suisun Bay","Spring","Wet",350.82543315267
+2017,3,TRUE,"Suisun Marsh","Spring","Wet",868.202432303667
+2017,4,FALSE,"SouthCentral","Spring","Wet",139.539533773674
+2017,4,TRUE,"Confluence","Spring","Wet",386.796522129682
+2017,4,TRUE,"SouthCentral","Spring","Wet",188.18598
+2017,4,TRUE,"Suisun Bay","Spring","Wet",17092.0118416716
+2017,4,TRUE,"Suisun Marsh","Spring","Wet",6450.70062216223
+2017,5,FALSE,"SouthCentral","Spring","Wet",8196.81865493277
+2017,5,TRUE,"Confluence","Spring","Wet",6684.00411974901
+2017,5,TRUE,"SouthCentral","Spring","Wet",763.656518817574
+2017,5,TRUE,"Suisun Bay","Spring","Wet",28423.3827242746
+2017,5,TRUE,"Suisun Marsh","Spring","Wet",25900.5801943914
+2017,6,TRUE,"Confluence","Summer","Wet",23275.1048320708
+2017,6,TRUE,"SouthCentral","Summer","Wet",5498.27765180957
+2017,6,TRUE,"Suisun Bay","Summer","Wet",105420.313075644
+2017,6,TRUE,"Suisun Marsh","Summer","Wet",67981.5860063983
+2017,7,TRUE,"Confluence","Summer","Wet",50516.7575400033
+2017,7,TRUE,"SouthCentral","Summer","Wet",26418.5348990754
+2017,7,TRUE,"Suisun Bay","Summer","Wet",56019.9811332464
+2017,8,TRUE,"Confluence","Summer","Wet",17968.1893623189
+2017,8,TRUE,"SouthCentral","Summer","Wet",28193.307965
+2017,8,TRUE,"Suisun Bay","Summer","Wet",22594.1018554515
+2017,8,TRUE,"Suisun Marsh","Summer","Wet",44144.3513460196
+2017,9,FALSE,"SouthCentral","Fall","Wet",7271.45776780501
+2017,9,TRUE,"Confluence","Fall","Wet",16131.1375587086
+2017,9,TRUE,"SouthCentral","Fall","Wet",28299.53785
+2017,9,TRUE,"Suisun Bay","Fall","Wet",19048.092802469
+2017,9,TRUE,"Suisun Marsh","Fall","Wet",42278.6534535561
+2017,10,FALSE,"SouthCentral","Fall","Wet",10101.06596
+2017,10,TRUE,"Confluence","Fall","Wet",12457.9663213458
+2017,10,TRUE,"SouthCentral","Fall","Wet",19564.9223578439
+2017,10,TRUE,"Suisun Bay","Fall","Wet",8077.74902027532
+2017,10,TRUE,"Suisun Marsh","Fall","Wet",13643.4115750285
+2017,11,FALSE,"SouthCentral","Fall","Wet",5404.99998
+2017,11,TRUE,"Confluence","Fall","Wet",10849.6981448459
+2017,11,TRUE,"SouthCentral","Fall","Wet",2894.82632
+2017,11,TRUE,"Suisun Bay","Fall","Wet",14285.428806598
+2017,11,TRUE,"Suisun Marsh","Fall","Wet",5446.81841237706
+2017,12,FALSE,"SouthCentral","Winter","Wet",628.41436
+2017,12,TRUE,"Confluence","Winter","Wet",4212.26546555537
+2017,12,TRUE,"SouthCentral","Winter","Wet",6055.45314338126
+2017,12,TRUE,"Suisun Bay","Winter","Wet",4807.38306379164
+2017,12,TRUE,"Suisun Marsh","Winter","Wet",5397.54768232644
+2018,1,FALSE,"SouthCentral","Winter","Neutral",422.89633
+2018,1,TRUE,"Confluence","Winter","Neutral",2520.36566901776
+2018,1,TRUE,"SouthCentral","Winter","Neutral",1938.8443
+2018,1,TRUE,"Suisun Bay","Winter","Neutral",4034.50379329944
+2018,1,TRUE,"Suisun Marsh","Winter","Neutral",3265.30194114206
+2018,2,FALSE,"SouthCentral","Winter","Neutral",671.14398
+2018,2,TRUE,"Confluence","Winter","Neutral",1004.82199985718
+2018,2,TRUE,"SouthCentral","Winter","Neutral",7224.64887
+2018,2,TRUE,"Suisun Bay","Winter","Neutral",2085.63422238476
+2018,2,TRUE,"Suisun Marsh","Winter","Neutral",2192.40126736823
+2018,3,FALSE,"SouthCentral","Spring","Neutral",3405.27559
+2018,3,TRUE,"Confluence","Spring","Neutral",1552.67419712462
+2018,3,TRUE,"SouthCentral","Spring","Neutral",1471.4191145399
+2018,3,TRUE,"Suisun Bay","Spring","Neutral",3777.64250343576
+2018,3,TRUE,"Suisun Marsh","Spring","Neutral",7773.51924779519
+2018,4,FALSE,"SouthCentral","Spring","Neutral",2758.99301
+2018,4,TRUE,"Confluence","Spring","Neutral",981.279971666667
+2018,4,TRUE,"SouthCentral","Spring","Neutral",624.64958
+2018,4,TRUE,"Suisun Bay","Spring","Neutral",8241.94263407932
+2018,4,TRUE,"Suisun Marsh","Spring","Neutral",9231.72449518125
+2018,5,FALSE,"SouthCentral","Spring","Neutral",8638.67895
+2018,5,TRUE,"Confluence","Spring","Neutral",12711.2406580982
+2018,5,TRUE,"SouthCentral","Spring","Neutral",4238.02301691295
+2018,5,TRUE,"Suisun Bay","Spring","Neutral",12796.5691431606
+2018,5,TRUE,"Suisun Marsh","Spring","Neutral",14930.726207679
+2018,6,TRUE,"Confluence","Summer","Neutral",14994.0505055997
+2018,6,TRUE,"SouthCentral","Summer","Neutral",39295.785235369
+2018,6,TRUE,"Suisun Bay","Summer","Neutral",11165.7437686305
+2018,6,TRUE,"Suisun Marsh","Summer","Neutral",13504.0647524234
+2018,7,TRUE,"Confluence","Summer","Neutral",16218.5726537292
+2018,7,TRUE,"SouthCentral","Summer","Neutral",44970.29676
+2018,7,TRUE,"Suisun Bay","Summer","Neutral",16884.2391825229
+2018,7,TRUE,"Suisun Marsh","Summer","Neutral",27906.9391131596
+2018,8,TRUE,"Confluence","Summer","Neutral",12540.7819428444
+2018,8,TRUE,"SouthCentral","Summer","Neutral",25515.6729522833
+2018,8,TRUE,"Suisun Bay","Summer","Neutral",13691.7840009854
+2018,8,TRUE,"Suisun Marsh","Summer","Neutral",10047.1797457568
+2018,9,FALSE,"SouthCentral","Fall","Neutral",9359.69376
+2018,9,TRUE,"Confluence","Fall","Neutral",13648.6905188391
+2018,9,TRUE,"SouthCentral","Fall","Neutral",50279.9193931357
+2018,9,TRUE,"Suisun Bay","Fall","Neutral",17893.6373796241
+2018,9,TRUE,"Suisun Marsh","Fall","Neutral",8178.97436734639
+2018,10,FALSE,"SouthCentral","Fall","Neutral",4697.32536
+2018,10,TRUE,"Confluence","Fall","Neutral",12040.3582837591
+2018,10,TRUE,"SouthCentral","Fall","Neutral",18434.56927
+2018,10,TRUE,"Suisun Bay","Fall","Neutral",8411.37254953554
+2018,10,TRUE,"Suisun Marsh","Fall","Neutral",9003.71753957149
+2018,11,FALSE,"SouthCentral","Fall","Neutral",1051.36275
+2018,11,TRUE,"Confluence","Fall","Neutral",7762.06790191662
+2018,11,TRUE,"SouthCentral","Fall","Neutral",8086.99048
+2018,11,TRUE,"Suisun Bay","Fall","Neutral",4912.32325407795
+2018,11,TRUE,"Suisun Marsh","Fall","Neutral",9567.70392051625
+2018,12,FALSE,"SouthCentral","Winter","Neutral",549.0068
+2018,12,TRUE,"Confluence","Winter","Neutral",3219.8701530639
+2018,12,TRUE,"SouthCentral","Winter","Neutral",3924.72517
+2018,12,TRUE,"Suisun Bay","Winter","Neutral",7218.7813100688
+2018,12,TRUE,"Suisun Marsh","Winter","Neutral",6091.66948774176
+2019,1,FALSE,"SouthCentral","Winter","Wet",354.39159
+2019,1,TRUE,"Confluence","Winter","Wet",1567.56987102464
+2019,1,TRUE,"SouthCentral","Winter","Wet",1411.75086
+2019,1,TRUE,"Suisun Bay","Winter","Wet",3421.43386442603
+2019,1,TRUE,"Suisun Marsh","Winter","Wet",2690.28828337031
+2019,2,TRUE,"Confluence","Winter","Wet",800.31121824013
+2019,2,TRUE,"SouthCentral","Winter","Wet",419.08619
+2019,2,TRUE,"Suisun Bay","Winter","Wet",1820.97198143638
+2019,2,TRUE,"Suisun Marsh","Winter","Wet",1238.7193758236
+2019,3,FALSE,"SouthCentral","Spring","Wet",167.53091
+2019,3,TRUE,"Confluence","Spring","Wet",264.341169399823
+2019,3,TRUE,"SouthCentral","Spring","Wet",298.50665
+2019,3,TRUE,"Suisun Bay","Spring","Wet",8171.62048659078
+2019,3,TRUE,"Suisun Marsh","Spring","Wet",208.416426630905
+2019,4,FALSE,"SouthCentral","Spring","Wet",1517.432
+2019,4,TRUE,"Confluence","Spring","Wet",675.296717127299
+2019,4,TRUE,"SouthCentral","Spring","Wet",1161.99378853204
+2019,4,TRUE,"Suisun Bay","Spring","Wet",12593.2204794198
+2019,4,TRUE,"Suisun Marsh","Spring","Wet",1282.52478620833
+2019,5,FALSE,"SouthCentral","Spring","Wet",12517.83088
+2019,5,TRUE,"Confluence","Spring","Wet",7733.78347683196
+2019,5,TRUE,"SouthCentral","Spring","Wet",14.19642
+2019,5,TRUE,"Suisun Bay","Spring","Wet",17305.2487995216
+2019,5,TRUE,"Suisun Marsh","Spring","Wet",14413.1841526437
+2019,6,TRUE,"Confluence","Summer","Wet",8251.76375219392
+2019,6,TRUE,"SouthCentral","Summer","Wet",7455.204885
+2019,6,TRUE,"Suisun Bay","Summer","Wet",35470.9297163318
+2019,6,TRUE,"Suisun Marsh","Summer","Wet",11818.7390543123
+2019,7,TRUE,"Confluence","Summer","Wet",16965.5736016343
+2019,7,TRUE,"SouthCentral","Summer","Wet",11923.9086851066
+2019,7,TRUE,"Suisun Bay","Summer","Wet",25279.9953584068
+2019,7,TRUE,"Suisun Marsh","Summer","Wet",16401.1388851506
+2019,8,TRUE,"Confluence","Summer","Wet",11744.1165101465
+2019,8,TRUE,"SouthCentral","Summer","Wet",23306.786835
+2019,8,TRUE,"Suisun Bay","Summer","Wet",33193.6704229621
+2019,8,TRUE,"Suisun Marsh","Summer","Wet",11376.0144267453
+2019,9,FALSE,"SouthCentral","Fall","Wet",14016.82554
+2019,9,TRUE,"Confluence","Fall","Wet",13162.1826145186
+2019,9,TRUE,"SouthCentral","Fall","Wet",8743.16726
+2019,9,TRUE,"Suisun Bay","Fall","Wet",15957.1928437533
+2019,9,TRUE,"Suisun Marsh","Fall","Wet",21846.9155432391
+2019,10,FALSE,"SouthCentral","Fall","Wet",3308.4537
+2019,10,TRUE,"Confluence","Fall","Wet",8433.95739509938
+2019,10,TRUE,"SouthCentral","Fall","Wet",3672.89430969407
+2019,10,TRUE,"Suisun Bay","Fall","Wet",18013.0538677194
+2019,10,TRUE,"Suisun Marsh","Fall","Wet",6529.41133383616
+2019,11,FALSE,"SouthCentral","Fall","Wet",5862.13863
+2019,11,TRUE,"Confluence","Fall","Wet",9632.00779440063
+2019,11,TRUE,"SouthCentral","Fall","Wet",1910.82638
+2019,11,TRUE,"Suisun Bay","Fall","Wet",7426.72194415602
+2019,11,TRUE,"Suisun Marsh","Fall","Wet",5999.94332751013
+2019,12,FALSE,"SouthCentral","Winter","Wet",516.59063
+2019,12,TRUE,"Confluence","Winter","Wet",3841.98838821242
+2019,12,TRUE,"SouthCentral","Winter","Wet",2293.85851
+2019,12,TRUE,"Suisun Bay","Winter","Wet",4307.77877379144
+2019,12,TRUE,"Suisun Marsh","Winter","Wet",5608.81427448602
+2020,1,FALSE,"SouthCentral","Winter","Drought, no barrier",345.03983
+2020,1,TRUE,"Confluence","Winter","Drought, no barrier",943.751254368355
+2020,1,TRUE,"SouthCentral","Winter","Drought, no barrier",1295.37367
+2020,1,TRUE,"Suisun Bay","Winter","Drought, no barrier",2432.50519640896
+2020,1,TRUE,"Suisun Marsh","Winter","Drought, no barrier",2156.90688023164
+2020,2,FALSE,"SouthCentral","Winter","Drought, no barrier",1486.94677
+2020,2,TRUE,"Confluence","Winter","Drought, no barrier",1141.77105558991
+2020,2,TRUE,"SouthCentral","Winter","Drought, no barrier",2686.00951
+2020,2,TRUE,"Suisun Bay","Winter","Drought, no barrier",1965.03654207984
+2020,2,TRUE,"Suisun Marsh","Winter","Drought, no barrier",1425.47739719508
+2020,3,FALSE,"SouthCentral","Spring","Drought, no barrier",3940.94474
+2020,3,TRUE,"Confluence","Spring","Drought, no barrier",2771.20716074807
+2020,3,TRUE,"SouthCentral","Spring","Drought, no barrier",5833.41565
+2020,3,TRUE,"Suisun Bay","Spring","Drought, no barrier",3703.64301446304
+2020,3,TRUE,"Suisun Marsh","Spring","Drought, no barrier",6324.45696834985
+2020,6,TRUE,"Confluence","Summer","Drought, no barrier",13208.1758413639
+2020,6,TRUE,"SouthCentral","Summer","Drought, no barrier",13407.2295277158
+2020,6,TRUE,"Suisun Bay","Summer","Drought, no barrier",16918.9442325732
+2020,6,TRUE,"Suisun Marsh","Summer","Drought, no barrier",15832.2465286618
+2020,7,TRUE,"Confluence","Summer","Drought, no barrier",12749.6838527128
+2020,7,TRUE,"SouthCentral","Summer","Drought, no barrier",23281.95127
+2020,7,TRUE,"Suisun Bay","Summer","Drought, no barrier",13713.6223133092
+2020,7,TRUE,"Suisun Marsh","Summer","Drought, no barrier",13403.6736499264
+2020,8,TRUE,"Confluence","Summer","Drought, no barrier",12319.654488623
+2020,8,TRUE,"SouthCentral","Summer","Drought, no barrier",20794.6765492205
+2020,8,TRUE,"Suisun Bay","Summer","Drought, no barrier",20518.7822246311
+2020,8,TRUE,"Suisun Marsh","Summer","Drought, no barrier",13429.0680418683
+2020,9,FALSE,"SouthCentral","Fall","Drought, no barrier",10299.36507
+2020,9,TRUE,"Confluence","Fall","Drought, no barrier",13279.6161439891
+2020,9,TRUE,"SouthCentral","Fall","Drought, no barrier",24824.1200154549
+2020,9,TRUE,"Suisun Bay","Fall","Drought, no barrier",13917.5240327653
+2020,9,TRUE,"Suisun Marsh","Fall","Drought, no barrier",14987.7100673627
+2020,10,FALSE,"SouthCentral","Fall","Drought, no barrier",4010.98497
+2020,10,TRUE,"Confluence","Fall","Drought, no barrier",14331.40288802
+2020,10,TRUE,"SouthCentral","Fall","Drought, no barrier",28024.2454651975
+2020,10,TRUE,"Suisun Bay","Fall","Drought, no barrier",13737.0290445357
+2020,10,TRUE,"Suisun Marsh","Fall","Drought, no barrier",5818.372347664
+2020,11,FALSE,"SouthCentral","Fall","Drought, no barrier",7803.91154
+2020,11,TRUE,"Confluence","Fall","Drought, no barrier",9837.52242826093
+2020,11,TRUE,"SouthCentral","Fall","Drought, no barrier",4314.40927
+2020,11,TRUE,"Suisun Bay","Fall","Drought, no barrier",6753.00814713987
+2020,11,TRUE,"Suisun Marsh","Fall","Drought, no barrier",9017.51790194124
+2020,12,FALSE,"SouthCentral","Winter","Drought, no barrier",2485.81995
+2020,12,TRUE,"Confluence","Winter","Drought, no barrier",5907.41819755683
+2020,12,TRUE,"SouthCentral","Winter","Drought, no barrier",6812.5337
+2020,12,TRUE,"Suisun Bay","Winter","Drought, no barrier",9331.46922086988
+2020,12,TRUE,"Suisun Marsh","Winter","Drought, no barrier",4547.11115954661
+2021,12,FALSE,"SouthCentral","Winter","Drought, with barrier",2679.81535
+2021,12,TRUE,"Confluence","Winter","Drought, with barrier",2442.65308202778

@@ -1,0 +1,7 @@
+                  Df Sum Sq Mean Sq F value   Pr(>F)    
+factor(st_index)   3   40.8   13.62   11.28 3.92e-07 ***
+month              1   86.9   86.89   71.97 3.60e-16 ***
+Region             3   45.0   15.00   12.42 8.35e-08 ***
+Residuals        428  516.8    1.21                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
