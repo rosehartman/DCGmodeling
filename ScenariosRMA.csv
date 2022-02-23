@@ -1,0 +1,31 @@
+Scenario,Yr_type,Month,Scene_year,Action
+mean.no.action_1940.06_hsit.avgmon_rma,Above Normal,6,1940,NoAction
+mean.no.action_1940.07_hsit.avgmon_rma,Above Normal,7,1940,NoAction
+mean.no.action_1940.08_hsit.avgmon_rma,Above Normal,8,1940,NoAction
+mean.no.action_1940.09_hsit.avgmon_rma,Above Normal,9,1940,NoAction
+mean.no.action_1940.10_hsit.avgmon_rma,Above Normal,10,1940,NoAction
+mean.no.action_1979.06_hsit.avgmon_rma,Below Normal,6,1979,NoAction
+mean.no.action_1979.07_hsit.avgmon_rma,Below Normal,7,1979,NoAction
+mean.no.action_1979.08_hsit.avgmon_rma,Below Normal,8,1979,NoAction
+mean.no.action_1979.09_hsit.avgmon_rma,Below Normal,9,1979,NoAction
+mean.no.action_1979.10_hsit.avgmon_rma,Below Normal,10,1979,NoAction
+mean.no.action_1986.06_hsit.avgmon_rma,Wet,6,1986,NoAction
+mean.no.action_1986.07_hsit.avgmon_rma,Wet,7,1986,NoAction
+mean.no.action_1986.08_hsit.avgmon_rma,Wet,8,1986,NoAction
+mean.no.action_1986.09_hsit.avgmon_rma,Wet,9,1986,NoAction
+mean.no.action_1986.10_hsit.avgmon_rma,Wet,10,1986,NoAction
+mean.smscg_1940.06_hsit.avgmon_rma,Above Normal,6,1940,SMSCG
+mean.smscg_1940.07_hsit.avgmon_rma,Above Normal,7,1940,SMSCG
+mean.smscg_1940.08_hsit.avgmon_rma,Above Normal,8,1940,SMSCG
+mean.smscg_1940.09_hsit.avgmon_rma,Above Normal,9,1940,SMSCG
+mean.smscg_1940.10_hsit.avgmon_rma,Above Normal,10,1940,SMSCG
+mean.smscg_1979.06_hsit.avgmon_rma,Below Normal,6,1979,SMSCG
+mean.smscg_1979.07_hsit.avgmon_rma,Below Normal,7,1979,SMSCG
+mean.smscg_1979.08_hsit.avgmon_rma,Below Normal,8,1979,SMSCG
+mean.smscg_1979.09_hsit.avgmon_rma,Below Normal,9,1979,SMSCG
+mean.smscg_1979.10_hsit.avgmon_rma,Below Normal,10,1986,SMSCG
+mean.smscg_1986.06_hsit.avgmon_rma,Wet,6,1986,SMSCG
+mean.smscg_1986.07_hsit.avgmon_rma,Wet,7,1986,SMSCG
+mean.smscg_1986.08_hsit.avgmon_rma,Wet,8,1986,SMSCG
+mean.smscg_1986.09_hsit.avgmon_rma,Wet,9,1986,SMSCG
+mean.smscg_1986.10_hsit.avgmon_rma,Wet,10,1986,SMSCG

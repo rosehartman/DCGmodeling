@@ -154,7 +154,7 @@ I used .tiffs of habitat suitability that RMA ran for several scenarios of diffe
 
 ```{r}
 #load habitat by station
-load("C:/Users/rhartman/OneDrive - California Department of Water Resources/salinity control gates/SMSCG/HabitatbyStations.RData")
+load("HabitatbyStations.RData")
 
 names(IEP_sf_HSI)
 IEP_sf_HSI = dplyr::rename(IEP_sf_HSI, Station = StationCode, Source = Survey)
